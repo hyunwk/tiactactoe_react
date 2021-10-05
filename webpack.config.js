@@ -21,7 +21,7 @@ module.exports = {
             },
             {
                 test: /\.css$/,   //.css 확장자로 끝나는 모든 파일
-                use: ['style-loader', 'css-loader']
+                use: ['style-loader', 'css-loader'] // stlye-loader : js로 변경된 css내용을 동적으로 dom에css-loader : css 파일이 js 코드로 변경
             }
         ],
     },
